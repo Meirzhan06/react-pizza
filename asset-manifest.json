@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-pizza/static/css/main.3909cbf0.css",
+    "main.js": "/react-pizza/static/js/main.40ec1f18.js",
+    "static/media/pizza3.jpg": "/react-pizza/static/media/pizza3.40e08d7e6659be31b01d.jpg",
+    "static/media/pizza4.jpg": "/react-pizza/static/media/pizza4.436e73c07e84775b161e.jpg",
+    "static/media/pizza2.jpg": "/react-pizza/static/media/pizza2.568c74f76ae37a2dcdd8.jpg",
+    "static/media/pizza1.jpg": "/react-pizza/static/media/pizza1.92645d5513306cecb515.jpg",
+    "static/media/logo.svg": "/react-pizza/static/media/logo.cf6d3b6be905864076d6bda85444ef62.svg",
+    "static/media/clearCart.jpg": "/react-pizza/static/media/clearCart.7afb6f59706db0abf771.jpg",
+    "static/media/emoji.svg": "/react-pizza/static/media/emoji.efbdbde5b1a378d96e867e6e52edc0f8.svg",
+    "static/media/blackCart.svg": "/react-pizza/static/media/blackCart.dcd5168086a25b3307ba9f5524ca6e70.svg",
+    "static/media/cart.svg": "/react-pizza/static/media/cart.d05720f2b474db2145233cd2ce1d4e91.svg",
+    "static/media/bin.svg": "/react-pizza/static/media/bin.ceafcffb34cece0b1462c3505b170d88.svg",
+    "static/media/delete.svg": "/react-pizza/static/media/delete.7696257a3cd8715ab8e7d99d90872982.svg",
+    "index.html": "/react-pizza/index.html",
+    "static/media/arrow.svg": "/react-pizza/static/media/arrow.8a732a7211d0fa00bfd63712369e29cc.svg",
+    "static/media/plus.svg": "/react-pizza/static/media/plus.dcca509e467c41efa81e3ba990c0309b.svg",
+    "static/media/minus.svg": "/react-pizza/static/media/minus.fe679d6907ef6db33dcc9872be10703a.svg",
+    "static/media/darkminus.svg": "/react-pizza/static/media/darkminus.527c58a29279b05e32c8151aa9672822.svg",
+    "static/media/arrowleft.svg": "/react-pizza/static/media/arrowleft.fc29ec73901b6f8218c91a0d69592416.svg",
+    "main.3909cbf0.css.map": "/react-pizza/static/css/main.3909cbf0.css.map",
+    "main.40ec1f18.js.map": "/react-pizza/static/js/main.40ec1f18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3909cbf0.css",
+    "static/js/main.40ec1f18.js"
+  ]
+}
