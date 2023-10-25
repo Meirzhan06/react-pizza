@@ -1,0 +1,145 @@
+.section1{
+    width: 100%;
+}
+.filters{
+    display: flex;
+    padding: 40px 0;
+}
+.kinds{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.kind{
+    cursor: pointer;
+    margin-right: 9px;
+    border-radius: 30px;
+    padding: 15px 25px;
+    background-color: rgba(249, 249, 249, 1);
+    font-weight: 600;
+    color: rgba(44, 44, 44, 1);
+}
+.kind.active{
+    background-color: rgba(40, 40, 40, 1);
+    color: #fff;
+}
+.sort{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.sortBlock{
+    position: relative;
+    display: flex;
+}
+
+.arrow{
+    margin-right: 5px;
+    transition: 0.2s all;
+}
+.arrow.active{
+    transform: rotate(180deg);
+}
+
+.sortKind{
+    cursor: pointer;
+    margin-left: 8px;
+    padding-bottom: 2px;
+    color: rgba(254, 95, 30, 1);
+    border-bottom: 2px dotted rgba(254, 95, 30, 1); 
+}
+.hiddenSort{
+    padding: 13px 0;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07);
+    position: absolute;
+    display: none;
+    bottom: 0;
+    transform: translateY(105%);
+    right: 0;
+}
+
+.sortListKind{
+    padding: 0 25px 0 15px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+.sortListKind.active{
+    background-color: rgba(254, 95, 30, 0.05);
+    font-weight: 700;
+    color: rgba(254, 95, 30, 1);
+}
+
+.hiddenSort.active{
+    display: block;
+}
+.title{
+    font-size: 22px;
+}
+.pizzaSection{
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto);
+    row-gap: 65px;
+}
+.viewMore{
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: end;
+    font-size: 18px;
+    color: #EB5A1E;
+    p{
+        cursor: pointer;
+    }
+}
+
+
+@media (max-width: 1118px) {
+    .pizzaSection{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 1024px) {
+    .filters{
+        flex-direction: column;
+    }
+    .kinds{
+        width: 100%;
+    }
+    .kind{
+        margin-top: 10px;
+    }
+    .sort{
+        width: 100%;
+        justify-content: start;
+        margin-top: 25px;
+    }
+}
+@media (max-width: 878px) {
+    .pizzaSection{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .filters{
+        padding: 20px 0 40px 0;
+    }
+}
+@media (max-width: 545px) {
+    .pizzaSection{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (max-width: 520px) {
+    .kinds{
+        justify-content: center;
+    }
+}

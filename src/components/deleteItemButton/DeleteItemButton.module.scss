@@ -1,0 +1,25 @@
+button{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid #D7D7D7;
+    background-color: #fff;
+    img{
+        width: 10px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    button{
+        height: 40px;
+        width: 40px;
+        img{
+            width: 13px;
+        }
+    }
+}

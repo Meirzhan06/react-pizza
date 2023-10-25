@@ -1,0 +1,43 @@
+.PizzaCount{
+    display: flex;
+    align-items: center;
+    button{
+        height: 32px;
+        width: 32px;
+        border: 2px solid #FE5F1E;
+        background-color: #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        img{
+            width: 10px;
+        }
+    }
+}
+
+.value{
+    margin: 0 12px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.decrementButton.active{
+    border: 2px solid #D7D7D7;
+}
+
+
+
+@media (max-width: 768px) {
+    .PizzaCount{
+        margin-top: 15px;
+        button{
+            height: 40px;
+            width: 40px;
+        }
+    }
+    .value{
+        font-size: 26px;
+    }
+}
